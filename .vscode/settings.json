@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "discord.h": "c",
+    "string.h": "c",
+    "stdio.h": "c",
+    "cassert": "c",
+    "optional": "c",
+    "memory": "c",
+    "log.h": "c",
+    "discord-internal.h": "c"
+  }
+}
