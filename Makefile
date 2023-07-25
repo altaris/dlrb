@@ -5,7 +5,7 @@ TARGET	= dlrb
 all: $(TARGET)
 
 $(TARGET):
-	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS) -g
+	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS)
 
 clean:
 	-rm $(TARGET)
