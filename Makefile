@@ -5,10 +5,10 @@ TARGET	= dlrb
 all: $(TARGET)
 
 $(TARGET):
-	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS)
+	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS) -g
 
 clean:
 	-rm $(TARGET)
 
 run: $(TARGET)
-	./$(TARGET)
+	./$(TARGET) config.json

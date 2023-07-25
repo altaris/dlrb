@@ -1,6 +1,8 @@
 # Others
 concord/
 .vscode/
+config.json
+*.log
 
 # Prerequisites
 *.d
