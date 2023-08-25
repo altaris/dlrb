@@ -1,12 +1,9 @@
 {
   "files.associations": {
     "*.env": "shellscript",
-    "*.tikz": "latex",
-    ".latexmkrc": "perl",
     "*.env.template": "shellscript",
-    "pylintrc": "ini",
-    "requirements.txt": "pip-requirements",
-    "requirements.*.txt": "pip-requirements",
+    "*.json": "json",
+    "*.json.template": "json",
     "discord.h": "c",
     "string.h": "c",
     "stdio.h": "c",
