@@ -1,14 +1,14 @@
-CC		= gcc
+CC		= g++
 CFLAGS	= -pthread -ldiscord -lcurl
 TARGET	= dlrb
 
 all: $(TARGET)
 
 $(TARGET):
-	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS)
+	$(CC) $(TARGET).cpp -o $(TARGET).out $(CFLAGS)
 
 clean:
-	-rm $(TARGET)
+	-rm $(TARGET).out
 
 run: $(TARGET)
-	./$(TARGET) config.json
+	./$(TARGET).out config.json
