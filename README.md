@@ -47,5 +47,5 @@ easier:
 3. Copy `config.json.template` and set the bot's token.
 4. Invoke
    ```sh
-   ./dlrb config.json
+   ./dlrb.out config.json
    ```
